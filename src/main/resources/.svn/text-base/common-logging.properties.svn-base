@@ -1,3 +1,0 @@
-# Must be one of ("trace", "debug", "info", "warn", "error", or "fatal").
-#using log4j
-org.apache.commons.logging.Log=org.apache.commons.logging.impl.Log4JCategoryLog

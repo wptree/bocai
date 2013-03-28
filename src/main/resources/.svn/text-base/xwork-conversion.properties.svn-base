@@ -1,2 +1,0 @@
-com.bocai.vo.LatLng=com.bocai.web.converter.LatLngConverter
-com.bocai.vo.AddressComponent=com.bocai.web.converter.AddressComponentConverter
