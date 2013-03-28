@@ -1,0 +1,83 @@
+10
+
+dir
+1259
+svn://2029124845.bstidc.com:28880/trunk/bocai/src/main/webapp
+svn://2029124845.bstidc.com:28880/trunk
+
+
+
+2012-04-04T14:46:59.496296Z
+1258
+wpeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+01df2da8-2a17-427e-939d-b48fba0956fb
+
+default.jsp
+file
+
+
+
+
+2012-02-27T12:45:59.647925Z
+5a9b8b49ac494ecb0c5c42ca49bff4ac
+2011-08-04T06:58:16.711581Z
+2
+wpeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39
+
+META-INF
+dir
+
+assets
+dir
+
+upload
+dir
+
+images
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+js
+dir
+

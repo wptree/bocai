@@ -1,0 +1,619 @@
+@charset "utf-8";
+/* CSS Document */
+.spotGuide_contentout {
+	height: auto;
+	min-width: 960px;
+	width: 100% !important;
+	width: 100%;
+	background: #fff;
+	padding-bottom: 60px;
+}
+
+.spotGuide_content {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 15px;
+	height: auto;
+	overflow: hidden;
+}
+
+.spotGuide_content_left {
+	float: left;
+	width: 658px;
+	height: auto;
+	overflow: hidden;
+}
+
+.spotGuide_content_right {
+	float: left;
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-left: 12px;
+	margin-top:10px;
+}
+
+.spotGuide_content_left_a {
+	width: 658px;
+	height: 30px;
+	padding-top:2px;
+	overflow: hidden;
+}
+
+.spotGuide_content_left_a .s1 {
+	color: #000000;
+    display: inline;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:8px;
+    margin-left: 7px;
+}
+
+.spotGuide_content_left_a .s2 {
+	float: left;
+	color: #A6A6A4;
+	margin-left: 28px;
+	margin-top: 15px;
+	font-weight: bold
+}
+
+.spotGuide_content_left_a .s3 {
+	float: right;
+	font-size: 12px;
+	color: #75934b;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.spotGuide_content_left_b {
+	min-height:600px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: 658px;
+	height: auto;
+	overflow: hidden
+}
+
+.pbocai1 {
+	width: 654px;
+	height: 8px;
+	overflow: hidden;
+	background: url(../images/peopleyuan_3_1.jpg) no-repeat;
+}
+
+.pbocai2 {
+	min-height:600px;
+	width: 652px;
+	height: auto;
+	overflow: hidden;
+	text-align:center;
+	border-left: #D9DBCC solid 1px;
+	border-right: #D9DBCC solid 1px;
+}
+
+.pbocai3 {
+	width: 654px;
+	height: 8px;
+	overflow: hidden;
+	background: url(../images/peopleyuan_6_1.jpg) no-repeat;
+}
+
+.pbocai2 ul {
+	width: 656px;
+	height: auto;
+	overflow: hidden;
+}
+
+.pbocai2 ul li {
+	width: 656px;
+	height: auto;
+	overflow: hidden;
+}
+
+.pbocai2le {
+	float: left;
+	width: 77px;
+	height: auto;
+	overflow: hidden;
+	display: inline;
+	margin-left: 28px;
+	margin-top: 13px
+}
+
+.pbocai2ri {
+	float: left;
+	width: 542px;
+}
+
+.pbocai2ri1 {
+	margin-top: 15px
+}
+
+.pbocai2ri1 .s1 {
+	float: left;
+	font-weight: bold;
+	margin-top: 1px;
+	font-size: 14px
+}
+
+.pbocai2ri1 .s2 {
+	float: left;
+	margin-left: 13px;
+	margin-top: 3px;
+	color: #A9A9A8;
+}
+
+.pbocai2ri1 .s3 {
+	float: left;
+	margin-left: 13px;
+	margin-top: 3px;
+	color: #A9A9A8;
+}
+
+.pbocai2ri1 .s4 {
+	float: left;
+	margin-left: 5px;
+}
+
+.pbocai2ri1 .s5 {
+	float: right;
+	margin-right: 15px;
+}
+
+.pbocai2ri2 {
+	color: #A9A9A8;
+	clear: both
+}
+
+.pbocai2ri3 {
+	color: #A9A9A8;
+	line-height: 150%;
+	margin-top: 10px;
+}
+
+.pbocai2ri4 {
+	color: #A9A9A8;
+	margin-top: 10px;
+}
+
+.pbocai2ri4 a {
+	color: #7C9657;
+	font-size: 14px
+}
+
+.pbocai2ri5 {
+	margin-top: 15px;
+}
+
+.pbocai2ri6 {
+	width: 540px;
+	height: 6px;
+	background: url(../images/peopledianx_3.jpg) no-repeat;
+	margin-top: 30px;
+}
+
+.spotGuide_content_right_a {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+}
+
+.spotGuide_content_right_a .s1 {
+	float: left;
+	margin: 11px 0 0 135px;
+}
+
+.spotGuide_content_right_a .s1 a {
+	font-size: 14px
+}
+
+.spotGuide_content_right_b {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.spotGuide_content_right_b1 {
+	width: 286px;
+	height: 6px;
+	overflow: hidden;
+	background: url(../images/useryuanj1_3.jpg) no-repeat
+}
+
+.spotGuide_content_right_b2 {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	background: url(../images/useryuanj1_6.jpg) repeat-y
+}
+
+.spotGuide_content_right_b3 {
+	width: 286px;
+	height: 6px;
+	overflow: hidden;
+	background: url(../images/useryuanj1_8.jpg) no-repeat
+}
+
+.spotGuide_content_right_b2_1 {
+	width: 272px;
+	height: 28px;
+	overflow: hidden;
+	margin: 6px 0 0 15px;
+	_margin: 5px 0 0 15px;
+}
+
+.spotGuide_content_right_b2_2 {
+	width: 272px;
+	height: 15px;
+	margin: 1px 0 0 12px;
+	clear: both
+}
+
+.spotGuide_content_right_b2_1 .s1 {
+	float: left
+}
+
+.spotGuide_content_right_b2_1 .s2 {
+	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+
+.spotGuide_content_right_b2_1 .s1 .inputlv {
+	width: 200px;
+	height: 26px;
+	background: url(../images/user1_16.jpg) no-repeat;
+	border: none
+}
+
+.spotGuide_content_right_b2_1 .s2 .sousuo {
+	width: 53px;
+	height: 21px;
+	background: url(../images/user1_19.jpg) no-repeat;
+	color: #FFF;
+	border: none
+}
+
+.spotGuide_content_right_b2_2 .s1 {
+	float: left
+}
+
+.spotGuide_content_right_b2_2 .s2 {
+	float: left;
+	margin-top: 3px;
+}
+
+.spotGuide_content_right_b2_2 .s3 {
+	float: left
+}
+
+.spotGuide_content_right_b2_2 .s4 {
+	float: left;
+	margin-top: 3px;
+}
+
+.spotGuide_content_right_c {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 14px;
+}
+
+.wodedt1 {
+	width: 286px;
+	height: 29px;
+	background: url(../images/userjiange_3.jpg) no-repeat;
+}
+
+.wodedt1 .sle {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 9px 0 0 9px;
+}
+
+.wodedt1 .sri {
+	float: right;
+	margin: 10px 9px 0 0;
+}
+
+.wodedt2 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+	border-left: #E1E1E1 solid 1px;
+	border-right: #E1E1E1 solid 1px;
+}
+
+.wodedt3 {
+	width: 286px;
+	height: 5px;
+	background: url(../images/userjiange_6.jpg) no-repeat;
+}
+
+.wodedt2 ul {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+}
+
+.wodedt2 ul .li1 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+}
+
+.wodedt2 ul .li1 .s1 {
+	float: left;
+	width: 13px;
+	height: 13px;
+	color: #FFF;
+	background: url(../images/user1_24.jpg) no-repeat;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.wodedt2 ul .li1 .s2 {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 20px;
+}
+
+.wodedt2 ul .li2 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+	background: #F3F3F3;
+}
+
+.wodedt2 ul .li2 .s1 {
+	float: left;
+	width: 13px;
+	height: 13px;
+	color: #FFF;
+	background: url(../images/user1_24.jpg) no-repeat;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.wodedt2 ul .li2 .s2 {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 20px;
+}
+
+.wodedt2 ul .li1 .s11 {
+	float: left;
+	width: 13px;
+	height: 13px;
+	color: #FFF;
+	background: url(../images/user1_30.jpg) no-repeat;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.wodedt2 ul .li2 .s11 {
+	float: left;
+	width: 13px;
+	height: 13px;
+	color: #FFF;
+	background: url(../images/user1_30.jpg) no-repeat;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.spotGuide_content_right_d {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 14px;
+}
+
+.spotGuide_content_right_d1 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_3.jpg) no-repeat
+}
+
+.spotGuide_content_right_d2 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+	border-left: #E9ECDB solid 1px;
+	border-right: #E9ECDB solid 1px;
+}
+
+.spotGuide_content_right_d3 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_6.jpg) no-repeat
+}
+
+.spotGuide_content_right_d2_1 {
+	margin-top: 10px;
+	height: 16px;
+}
+
+.spotGuide_content_right_d2_1le {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	display: inline
+}
+
+.spotGuide_content_right_d2_1ri {
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	display: inline
+}
+
+.spotGuide_content_right_d2_2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 263px;
+	height: 5px;
+	overflow: hidden;
+	background: #E0EECA;
+}
+
+.spotGuide_content_right_d2_3 {
+	width: 280px;
+	height: auto;
+	overflow: hidden
+}
+
+.spotGuide_content_right_d2_3 .uuu22 {
+	margin-left: 5px;
+	height: auto;
+	overflow: hidden
+}
+
+.spotGuide_content_right_d2_3 .uuu22 li {
+	width: 262px;
+	height: 45px;
+	background: url(../images/person_1_21.jpg) no-repeat 0 bottom;
+	margin-top: 13px;
+	padding-bottom: 5px;
+}
+
+.spotGuide_content_right_d2_3 .uuu22 li .xiaoyuantu {
+	float: left;
+	width: 51px;
+	text-align: center
+}
+
+.spotGuide_content_right_d2_3 .uuu22 li .wenzhangyou {
+	float: left;
+	width: 146px;
+}
+
+.spotGuide_content_right_d2_3 .uuu22 li .guanzhu {
+	float: right;
+}
+
+
+.spotGuide_content_right_d2_3 .uuu22 .wenzhangyou .pp1 {
+	color: #73884F;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+.spotGuide_content_right_d2_3 .uuu22 .wenzhangyou .pp1 a {
+	color: #73884F;
+	font-size: 13px;
+	font-weight: bold
+}
+
+.spotGuide_content_right_d2_3 .uuu22 .wenzhangyou .pp2 {
+	color: #B8B8B8;
+	margin-top: 5px;
+}
+
+.spotGuide_content_right_d2_3 .uuu22 .limore {
+	width: 258px;
+	height: 40px;
+	border-bottom: none
+}
+
+.spotGuide_content_right_d2_3 .uuu22 .limore a {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #6F6F71
+}
+
+.spotGuide_content_right_e {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 13px;
+}
+
+.spotGuide_content_right_e1 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_3.jpg) no-repeat
+}
+
+.spotGuide_content_right_e2 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+	border-left: #E9ECDB solid 1px;
+	border-right: #E9ECDB solid 1px;
+}
+
+.spotGuide_content_right_e3 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_6.jpg) no-repeat
+}
+
+.spotGuide_content_right_e2_1 {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 14px;
+}
+
+.spotGuide_content_right_e2_1le {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	display: inline
+}
+
+.spotGuide_content_right_e2_1ri {
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	display: inline
+}
+
+.spotGuide_content_right_e2_2 {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 263px;
+	height: 5px;
+	overflow: hidden;
+	background: #E0EECA;
+}
+
+.spotGuide_content_right_e2_3 {
+	width: 276px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.spotGuide_content_right_e2_3 ul {
+	margin-top: 5px;
+}
+
+.spotGuide_content_right_e2_3 ul li {
+	float: left;
+	width: 68px;
+	height: 88px;
+	margin-top: 5px;
+}

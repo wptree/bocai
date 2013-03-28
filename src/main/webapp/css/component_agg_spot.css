@@ -1,0 +1,390 @@
+/* style for agg spot panel*/
+
+#aggSpot_list{
+	height: auto;
+}
+
+.aggSpotPanel {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 100%;
+	height: auto;
+}
+
+.aggSpotPanel_body {
+	width: 100%!important;
+	height: auto;
+	border-radius: 5px 5px 0 0;
+	background: none repeat-y scroll 0 0 #F7F6F1;
+}
+
+.aggSpotPanel_body_left {
+	float: left;
+	width: 438px;
+	height: auto;
+	margin-top: 3px;
+}
+
+.aggSpotPanel_body_right {
+	float: right;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+    width: 204px;
+}
+
+.aggSpotPanel_body_left .peer_ul {
+    height: 38px;
+    margin-top: 10px;
+    margin-left: -9px;
+}
+
+.aggSpotPanel_body_left .peer_title {
+    background: url("../images/index_btm_28.jpg") no-repeat scroll 0 0 transparent;
+    color: #4F573F;
+    letter-spacing:2px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 37px;
+    padding-top: 7px;
+    padding-left:8px;
+    text-align: center;
+    width: 84px;
+}
+
+.aggSpotPanel_body_left .peer_li {
+    float: left;
+    margin-top:8px;
+    margin-right:5px;
+}
+
+.aggSpotPanel_body_left .peer_more {
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.aggSpotPanel_body_left .aggSpot_splitter_sick {
+    border-bottom: 5px solid #CAE19D;
+    height: 5px;
+    width: 430px;
+}
+
+.aggSpotPanel_body_left .aggSpot_title {
+    height: auto;
+    line-height: 165%;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.aggSpotPanel_body_left .aggSpot_title .aggSpot_name {
+    color: #546E24;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 350px;
+}
+
+div.waitting{
+	width:50px;
+	height:50px;
+}
+
+.aggSpotPanel_body_left .aggSpot_title .aggSpot_post_way {
+    color: #A0A09E;
+    float: left;
+    height: 20px;
+    width: 200px;
+}
+
+.aggSpotPanel_body_left .aggSpot_loaction {
+    height: auto;
+    line-height: 150%;
+    margin-left: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+.spanhei {
+    color: #72716F;
+    font-size:13px;
+    margin-right:10px;
+}
+
+.spanhe2 {
+    color: #976E4E;
+    margin-left:5px;
+}
+.aggSpot_way{
+	color: #A1A1A1;
+	margin-top:10px;
+	margin-left:10px;
+}
+a.spotName{
+	color:#333!important;
+}
+.spotPrice{
+	float: right;
+}
+
+.aggSpotPanel_body_left .aggSpot_desc {
+    color: #717171;
+    height: auto;
+    line-height: 150%;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 420px;
+}
+
+.aggSpotPanel_body_left .aggSpot_splitter_silk {
+    border-bottom: 1px solid #CAE19D;
+    height: 10px;
+    width: 438px;
+}
+
+.aggSpotPanel_body_left .aggSpot_tag {
+    margin-left: 10px;
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
+.aggSpotPanel_body_left .aggSpot_tag li {
+    float: left;
+    height: 56px;
+    margin-left: 8px;
+    width: 56px;
+}
+
+.dish_photo {
+    background: url("../images/index_tm1_34.png") no-repeat scroll 0 0 transparent;
+    height: 185px;
+    margin-top: 1px;
+    margin-left: 4px;
+    padding: 9px 0px 0 1px!important;
+    text-align: center;
+    width: 185px;
+}
+
+.dish_photo_tip {
+    background: url("../images/index_tm1_38.png") no-repeat scroll 0 0 transparent;
+    height: 52px;
+    margin-left: 145px;
+    margin-top: -20px;
+    position: absolute;
+    width: 52px;
+}
+
+.dish_photo_tip .pp1 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 30px;
+}
+
+.dish_photo_tip .pp2 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    height: 12px;
+    margin-left: 10px;
+    width: 30px;
+    margin-top:2px;
+}
+
+.aggSpotPanel_control {
+    background: none repeat-y scroll 0 0 #F0ECDD;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 3px #E6E2D5 inset;
+    overflow: hidden;
+}
+.aggSpotPanel_control.control-on {
+    border-radius: 0;
+}
+
+.aggSpotPanel_control .control-left{
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 5px; 		/* make the block element middle on vertical */
+    padding-top: 5px; 			/* make the block element middle on vertical */
+}
+
+.control-left li.operator{
+	display: inline;
+    float: left;
+    line-height: 2em;
+    margin-right: 20px;
+}
+.control-left li.operator.sighting a{
+    font-weight: bold;
+}
+.control-left li.operator a{
+    margin-left: 15px;
+}
+.control-left li.operator.nom a{
+    margin-left: 20px;
+}
+.control-left li.operator a:link, li.operator a:visited {
+    text-decoration: none;
+}
+.control-left li.operator a:hover{
+	text-decoration: underline;
+}
+.control-left li.operator span{
+	color: #72716F;
+}
+
+.control-left li.sighting-on{
+    background: url("../images/sighting_btn_on.png") no-repeat scroll 0 center transparent;
+}
+.control-left li.sighting-off{
+   background: url("../images/sighting_btn_off.png") no-repeat scroll 0 center transparent;
+}
+.control-left li.wantted{
+	 background: url("../images/index_btm_49.png") no-repeat scroll 0 center transparent;
+}
+.control-left li.nom{
+	 background: url("../images/index_btm_52.png") no-repeat scroll 0 center transparent;
+}
+.control-left li.correction{
+	 background: url("../images/index_btm_55.png") no-repeat scroll 0 center transparent;
+}
+
+.control-right{
+	float: right;
+    margin-right: 26px;
+    padding-bottom: 5px;   /* make the block element middle on vertical */
+    padding-top: 5px;      /* make the block element middle on vertical */
+}
+.control-right li{
+	display: inline;
+	line-height: 2em;
+	margin-left: 3px;
+	color:#A1A1A1;
+}
+
+ul.aggSpotPanel_loading {
+    background-color: #F0EEE4;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid #E1DCC8;
+    padding: 0;
+}
+
+ul.aggSpotPanel_loading li.review.loading {
+    border-bottom: 0 none;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid white;
+    margin-bottom: 0 !important;
+    clear: left;
+    list-style: none outside none;
+    position: relative;
+}
+ul.aggSpotPanel_loading li.review.loading img{
+	margin-right: 5px;
+}
+
+.aggSpotPanel_footer {
+    background: url("../images/index_btm_64.jpg") no-repeat scroll 0 0 transparent;
+    height: 7px;
+    overflow: hidden;
+    width: 658px;
+}
+
+/*for aggspot on place*/
+#place-feature {
+    padding: 20px;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+#place-feature .spotted-by {
+    background: url("../images/corner-ribbon-green.png") no-repeat scroll left bottom transparent;
+    float: left;
+    margin: -5px 0 15px -25px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+#place-feature .spotted-by .label {
+    background: none repeat scroll 0 0 #96AF4B;
+    color: white;
+    float: left;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 0 15px 0 0;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 230px;
+    height: 20px;
+    line-height: 20px;
+}
+#place-feature .spotted-by .avatar {
+    float: left;
+    margin-right: 5px;
+}
+#place-feature .spotted-by .avatar img {
+    height: 30px;
+    width: 30px;
+}
+#place-feature .ribbon {
+    background: url("../images/index_tm1_38.png") no-repeat scroll 0 0 transparent;
+    color: white;
+    height: 52px;
+    font-size: 14px;
+    line-height: 0.9;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 3px;
+    top: 8px;
+    width: 52px;
+    z-index: 10;
+}
+.ribbon .pp1 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 12px;
+    width: 30px;
+}
+.ribbon .pp2 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 30px;
+}
+#place-feature a.photo {
+    border: 10px solid white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 3px #E1DCC8;
+    float: left;
+    height: 200px;
+    margin-right: 15px;
+    width: 200px;
+}
+#place-feature h2 {
+    color: black;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+#place-feature .note {
+    font-weight: 300;
+    line-height: 1.5em;
+    margin: 15px 0 10px;
+    color:grey;
+}

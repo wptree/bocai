@@ -1,0 +1,163 @@
+.bc_post{
+	border-radius: 5px;
+	background: none repeat scroll 0 0 #f7ffe8;
+    box-shadow: 1px 1px 3px #B4AAA0;
+}
+
+.bc_content .bc_nav {
+    border-bottom: 4px solid #69625F;
+    height: 105px;
+    position: relative;
+}
+
+.bc_content .bc_nav h2 {
+    background: url("../images/re/mobile-icon.png") no-repeat scroll 0 0 transparent;
+    color: #4A4846;
+    font-size: 55px;
+    height: 55x;
+    line-height: 55px;
+    padding-left: 65px;
+    left: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    text-shadow: 0 1px 0 #D9D4CF;
+}
+
+.bc_content .bc_nav h2 em {
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 5px;
+    vertical-align: -2px;
+}
+
+.bc_content .bc_nav .phones {
+    background: none repeat scroll 0 0 #47B3C9;
+    border-radius: 8px 8px 0 0;
+    bottom: -1px;
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+}
+
+.bc_content .bc_nav .phones li {
+    background: none repeat scroll 0 0 #69625F;
+    float: left;
+    margin: 0 -1px 0 0;
+    padding: 11px 55px 9px;
+}
+
+.bc_content .bc_nav .phones a {
+	font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bc_content .bc_nav .phones a.curr, .bc_content .bc_nav .phones a:hover {
+    color: #b7de78;
+}
+
+.post_phone {
+    color: #FFFFFF;
+    font-size: 14px;
+    min-height: 531px;
+    height: auto;
+    padding: 20px 335px 0 45px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+
+.post_phone.andriod {
+    background: url("../images/re/wpsb.jpg") no-repeat scroll 100% 0 #99bd5c;
+}
+.post_phone.iphone {
+    background: url("../images/re/wpsb_i.jpg") no-repeat scroll 100% 0 #99bd5c;
+}
+
+.post_phone h3 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    padding: 0 0 10px 50px;
+}
+
+.post_phone a {
+	color: #faff99;
+}
+
+.post_phone.andriod h3{
+	 background: url("../images/re/andriod.png") no-repeat scroll 0 0 transparent;
+}
+.post_phone.iphone h3{
+	 background: url("../images/re/iphone.png") no-repeat scroll 0 0 transparent;
+}
+
+.post_phone h4 {
+    font-size: 20px;
+    padding: 0 0 0 5px;
+}
+
+.post_phone h3 em {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0 4px 0 0;
+    vertical-align: -4px;
+}
+
+.down_rec{
+	padding: 13px 0 20px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    line-height: 21px;
+}
+
+.downNow {
+    float: left;
+    padding-right: 50px;
+}
+
+.downNow p {
+    padding: 14px 0 14px 5px;
+}
+
+.downStart {
+    background: url("../images/re/btn_down.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 79px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 209px;
+}
+.downStart:hover{
+	background-position: 0 -79px;
+}
+.iphone .downStart{
+	background-position: -209px 0;
+}
+.iphone .downStart:hover{
+	background-position: -209px -79px;
+}
+
+.use_phone_down {
+    float: left;
+    width: 285px;
+    z-index: 1000;
+}
+
+.use_phone_down li {
+    padding: 14px 5px;
+}
+
+.post_phone.andriod .phone_slide{
+	top: 111px;
+    position: absolute;
+    right: 80px;
+}
+.post_phone.iphone .phone_slide{
+	top: 124px;
+    position: absolute;
+    right: 74px;
+}

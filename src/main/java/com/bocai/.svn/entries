@@ -1,0 +1,76 @@
+10
+
+dir
+1259
+svn://2029124845.bstidc.com:28880/trunk/bocai/src/main/java/com/bocai
+svn://2029124845.bstidc.com:28880/trunk
+
+
+
+2012-04-04T14:46:59.496296Z
+1258
+wpeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+01df2da8-2a17-427e-939d-b48fba0956fb
+
+aop
+dir
+
+mail
+dir
+
+remoting
+dir
+
+vo
+dir
+
+spider
+dir
+
+common
+dir
+
+exception
+dir
+
+recommender
+dir
+
+service
+dir
+
+dao
+dir
+
+config
+dir
+
+search
+dir
+
+manager
+dir
+
+rest
+dir
+
+util
+dir
+
+web
+dir
+

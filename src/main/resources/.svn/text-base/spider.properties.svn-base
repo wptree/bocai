@@ -1,0 +1,8 @@
+#Users to be random used
+random.user.id.list= 1,2,3,6,7,8,33,13,22,23,24,26,26,29,31,34,36,37
+random.spot.desc=这道菜口味很不错，价格实惠。,看起来很不错，吃起来也很好吃。,环境还不错，菜色香味俱全。,这道菜很好吃哦。,这道菜很好吃，强烈推荐大家去吃
+
+image.download.temporary.dir=/tmp/IMG_TEMP
+
+spot.price.list=20,25,18,35,12,30,32,42,19,50,16,22,26,33,15
+

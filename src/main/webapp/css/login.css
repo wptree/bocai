@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*login*/
+.login_contentout {
+	height: auto;
+	min-width: 960px;
+	width: 100% !important;
+	background: #F0EEDF;
+}
+
+.login_content {
+	width: 960px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.faxianmeishi {
+	float: left;
+	width: 392px;
+	height: 396px;
+	margin-left: 65px;
+	margin-top: 78px;
+	display: inline
+}
+
+.login {
+	float: right;
+	width: 420px;
+	height: auto;
+	overflow: hidden;
+	margin-right: 60px;
+	margin-top: 94px;
+	display: inline
+}
+
+.li_xian {
+	width: 100%;
+	height: 13px;
+	margin-top: 20px;
+	background: url(../images/dengluxian_24.jpg) no-repeat
+}
+
+.denglutu {
+	float: left;
+	margin-left: 25px;
+	margin-top: 12px;
+	display: inline
+}
+
+.denglu {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #729932;
+	margin-left: 5px;
+	margin-top: 15px;
+	display: inline
+}
+
+.huanmeiyou {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.login_u1 li {
+	float: left;
+	width: 207px;
+	height: 50px;
+	cursor: pointer
+}
+
+.login_u1 .llion1 {
+	background: #FFF;
+	border: #BFD98D solid 1px;
+	border-bottom: #fff solid 1px;
+}
+
+.login_u1 .llioff1 {
+	background: url(../images/blogin_6.jpg) repeat-x;
+	border-bottom: #BFD98D solid 1px;
+	border-top: #CCC solid 1px;
+	border-right: #CCC solid 1px;
+	width: 208px;
+}
+
+.login_u1 .llion2 {
+	background: #FFF;
+	border: #BFD98D solid 1px;
+	border-bottom: #fff solid 1px;
+}
+
+.login_u1 .llioff2 {
+	background: url(../images/blogin_6.jpg) repeat-x;
+	border-bottom: #BFD98D solid 1px;
+	border-top: #CCC solid 1px;
+	border-left: #CCC solid 1px;
+	width: 208px;
+}
+
+a.mianfeizhuce {
+	font-size: 14px;
+	color: #729932
+}
+
+.login_u2 {
+	width: 416px;
+	height: auto;
+	overflow: hidden;
+	background: #FFF;
+	border: #BFD98D solid 1px;
+	border-top: none;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.login_u2 li {
+	width: 416px;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+
+.login_u2 .li-item-entry{ 
+	margin-top:10px;
+}
+
+.login_u2 .li1 {
+	margin-top: 20px;
+}
+
+.login_u2 .li2 {
+	margin-top: 10px;
+}
+
+.login_u2 .li3 {
+	margin-top: 10px;
+	height: 20px;
+}
+
+.login_u2 .li4 {
+	margin-top: 30px;
+	height: 50px;
+}
+
+.login_u2 .li5 {
+	margin-top: 0px;
+	height: 50px;
+}
+.login_u2 .li5 #s8 {
+	margin: 5px 5px 5px 97px;
+}
+
+.login_u2 .li6 {
+	margin-top: 10px;
+}
+
+.login_u2 .li7 {
+	margin-top: 25px;
+	height: 60px;
+}
+
+.login_u2 .s0 {
+	float: left;
+	margin-left: 98px;
+	color: #ff0000;
+}
+
+.login_u2 .s1 {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #808080;
+	margin-left: 39px;
+	margin-top: 6px;
+}
+
+.login_u2 .s2 {
+	float: left
+}
+
+.login_u2 .s3 {
+	float: left;
+	margin-left: 94px;
+	margin-top:3px;
+}
+
+.login_u2 .s4 {
+	float: left;
+	margin-left: 6px;
+	color: #999;
+	margin-top:6px;
+}
+
+.login_u2 .s5 {
+	float: left;
+	margin-left: 97px;
+}
+
+.login_u2 .s6 {
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+	color: #999
+}
+
+.login_u2 .s7 {
+	float: left;
+	margin-left: 98px;
+	margin-top: 5px;
+}
+
+.login_u2 .s8 {
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #999
+}
+
+.xinlangwb {
+	float: left;
+	margin-left: 5px;
+}
+
+.login_u2 .input_name {
+	float: left;
+	color: #808080;
+	text-align: right;
+	line-height: 30px;
+	width: 80px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.input1 {
+	float: left;
+	width: 206px;
+	height: 22px;
+	border: #ccc solid 1px;
+	color: #CCC;
+	padding: 5px 0 0 5px;
+	margin-left: 17px;
+}
+
+.input2 {
+	float: left;
+	width: 206px;
+	height: 22px;
+	border: #ccc solid 1px;
+	color: #000;
+	padding: 5px 0 0 5px;
+	margin-left: 17px;
+}
+
+.input-text-account,.input-text-blur, .input-text-auth-code {
+	font-family: Verdana,Tahoma,Hei,"宋体",Helvetica,Arial,sans-serif;
+	float: left;
+	width: 200px;
+	height: 16px;
+	border: #c5c5c5 solid 1px;
+	line-height: 16px;
+	padding: 5px;
+	margin-left: 17px;
+}
+
+.input-text-account-email {
+	font-family: Verdana,Tahoma,Hei,"宋体",Helvetica,Arial,sans-serif;
+	float: left;
+	width: 200px;
+	height: 16px;
+	border: #c5c5c5 solid 1px;
+	line-height: 16px;
+	padding: 5px;
+	margin-left: 17px;
+	color: #000;
+}
+
+.input-text-blur, .input-text-auth-code {
+	color: #333;
+}
+
+.input-text-auth-code{
+	width: 80px;
+}
+
+a.wangjimima {
+	color: #999999
+}
+
+.span-auth-code{
+	float: left;
+	border: none;
+	margin-left: 9px;
+}
+
+.tips {
+	width: 760px;
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 60px;
+	text-align: center;
+	color: #808080
+}
+
+a.genghaojianyi {
+	font-size: 12px;
+	color: #729932
+}
+/*login end*/

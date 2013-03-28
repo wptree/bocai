@@ -1,0 +1,27 @@
+package com.bocai.common.constant;
+
+public enum ActivityType {
+	
+	SPOT_UPLOAD,
+	
+	USER_FOLLOW_USER,
+	
+	USER_FOLLOW_PLACE,
+	
+	USER_FOLLOW_DISH,
+	
+	USER_FOLLOW_TAG,
+	
+	SPOT_WANTED,
+	
+	SPOT_NOMMED,
+	
+	COMMENT_SUMMIT,
+	
+	COMMENT_REPLY,
+	
+	COMMENT_GREAT,
+	
+	COMMENT_GOOD,
+	
+}

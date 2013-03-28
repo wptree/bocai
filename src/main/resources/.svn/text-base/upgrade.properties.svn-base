@@ -1,0 +1,8 @@
+#this is the config for android client upgrade
+#the file is deployed to /static/bocai/client/android/ folder
+version=1
+VersionName=0.0.3
+ApkFullName=bocai_android.apk
+message=bug fix
+optional=true
+url=http://static.bocai007.com/bocai/download/android_latest.apk

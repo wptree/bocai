@@ -1,0 +1,88 @@
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+#citypicker_container {
+    font-size: 14px;
+    width: 300px;
+    height: auto;
+    border: 1px solid #DDD;
+    background: #ffffff;
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+#citypicker_container #citypicker_caption {
+    color: #fff;
+    float: left;
+    width: 100%;
+    line-height: 25px;
+    background-color: #73684D;
+}
+
+#citypicker_container #citypicker_caption h1 {
+    font-size: 14px;
+    float: left;
+    height: 25px;
+    color:#fff!important;
+    line-height: 25px;
+    margin: 0 0 0 10px;
+}
+
+#citypicker_container #citypicker_caption span {
+    float: right;
+    width: 20px;
+    height: 25px;
+	margin-right: 5px;
+}
+
+#citypicker_container #citypicker_caption span:hover {
+    cursor: pointer;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+#citypicker_container #citypicker_pro {
+    clear: both;
+    padding-top: 10px;
+	padding-bottom: 5px;
+    background: url(../images/citypick_bg1.png) repeat center center;
+}
+
+#citypicker_container label:hover {
+    font-weight: bold;
+    color: #80A545;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#citypicker_container #hotcitys{
+	background: url(../images/citypick_bg2.png) repeat center top;
+	font-weight:bold;
+	margin-top: 20px;
+    padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#citypicker_container #citypicker_city {
+    height: auto;
+    padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+    background: url(../images/citypick_bg2.png) repeat center top;
+}
+
+#citypicker_container label {
+    color: #73684D;
+    display: inline-block;
+    text-align: center;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+}

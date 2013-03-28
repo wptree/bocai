@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 是否显示详细错误信息 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 国际化资源文件名称 -->
+	<constant name="struts.custom.i18n.resources" value="i18n" />
+	<!-- 是否自动加载国际化资源文件  -->
+	<constant name="struts.i18n.reload" value="false" />
+	<!-- 修改action扩展名为bc -->
+	<constant name="struts.action.extension" value="bc" />
+	<!-- convention类重新加载 -->
+	<constant name="struts.convention.classes.reload" value="false" />
+	<!-- 浏览器是否缓存静态内容 -->
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<constant name="struts.objectFactory" value="org.apache.struts2.spring.StrutsSpringObjectFactory" />
+	<constant name="struts.objectFactory.spring.autoWire" value="name"/>
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.multipart.maxSize" value="-1"></constant>
+	<constant name="struts.multipart.saveDir" value="/tmp/IMG_TEMP"/>
+
+	<!-- 结果资源的路径 -->
+	<constant name="struts.convention.result.path" value="/WEB-INF/page/" />
+	<constant name="struts.convention.action.name.separator" value="_" />
+	<package name="default" extends="json-default">
+		
+		<interceptors>
+			<interceptor name="login"
+				class="com.bocai.web.interceptor.LoginInterceptor" />
+			<interceptor name="actionRole"
+				class="com.bocai.web.interceptor.ActionRoleInterceptor" />
+			<interceptor name="jsonValidationFix"
+				class="com.bocai.web.interceptor.JSONValidationInterceptor" />
+			<interceptor name="ajaxException"
+				class="com.bocai.web.interceptor.ExceptionAjaxMappingInterceptor" />
+		    <interceptor name="monitoring" class="net.bull.javamelody.StrutsInterceptor"/>
+			<interceptor-stack name="baseStack">
+				<interceptor-ref name="ajaxException">
+					<param name="logEnabled">true</param>
+					<param name="logLevel">warn</param>
+				</interceptor-ref>
+                <interceptor-ref name="alias"/>
+                <interceptor-ref name="i18n"/>
+                <interceptor-ref name="params">
+                    <param name="excludeParams">dojo\..*,^struts\..*</param>
+                </interceptor-ref>
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="actionRole" />
+                <interceptor-ref name="prepare"/>
+                <interceptor-ref name="chain"/>
+                <interceptor-ref name="modelDriven"/>
+                <interceptor-ref name="fileUpload">
+                	<param name="allowedTypes">application/octet-stream,application/vnd.ms-excel,image/pjpeg,image/x-png,image/jpg,image/jpeg,image/gif,image/png,image/bmp,image/x-icon</param>
+                	<param name="maximumSize">8388068</param>
+                </interceptor-ref>
+                <interceptor-ref name="checkbox"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="params">
+                    <param name="excludeParams">dojo\..*,^struts\..*</param>
+                </interceptor-ref>
+                <interceptor-ref name="conversionError"/>
+                <!-- 配置方法级别的校验 -->
+                <interceptor-ref name="validation">
+                    <param name="excludeMethods">back,cancel</param>
+                    <param name="validateAnnotatedMethodOnly">true</param>
+                </interceptor-ref>
+                <!-- 配置JSON校验,将校验结果写入JSON -->
+                <interceptor-ref name="jsonValidationFix"/>
+                <interceptor-ref name="workflow">
+                    <param name="excludeMethods">back,cancel</param>
+                </interceptor-ref>
+                <interceptor-ref name="login" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="baseStack"/>
+		
+
+		<!-- 未到找Action指向页面 -->
+		<default-action-ref name="errorPage" />
+		
+		<global-results>
+			<result name="login" type="redirect">/login.bc</result>
+			<result name="403">/WEB-INF/page/404.jsp</result>
+			<result name="404">/WEB-INF/page/404.jsp</result>
+			<result name="exceptionPage">/WEB-INF/page/404.jsp</result>
+		</global-results>
+		
+		<global-exception-mappings>
+			<exception-mapping result="exceptionPage" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings> 
+		
+		<action name="errorPage">
+			<result>/WEB-INF/page/404.jsp</result>
+		</action>
+	</package>
+	
+	<package name="user" extends="default" namespace="/user/">
+		<interceptors>
+			<interceptor name="trimInterceptor" class="com.bocai.web.interceptor.TrimInterceptor" />
+			<interceptor-stack name="userStack">
+				<!-- trim拦截器 -->
+				<interceptor-ref name="trimInterceptor" />
+				<interceptor-ref name="baseStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<!-- 配置默认拦截器栈 -->
+		<default-interceptor-ref name="userStack" />
+	</package>
+	
+	<package name="spot" extends="default" namespace="/spot/">
+		<interceptors>
+			<interceptor name="trimInterceptor" class="com.bocai.web.interceptor.TrimInterceptor" />
+			<interceptor-stack name="spotStack">
+				<!-- trim拦截器 -->
+				<interceptor-ref name="trimInterceptor" />
+				<interceptor-ref name="baseStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<!-- 配置默认拦截器栈 -->
+		<default-interceptor-ref name="spotStack" />
+	</package>
+	
+	<package name="place" extends="default" namespace="/place/">
+		<interceptors>
+			<interceptor name="trimInterceptor" class="com.bocai.web.interceptor.TrimInterceptor" />
+			<interceptor-stack name="placeStack">
+				<!-- trim拦截器 -->
+				<interceptor-ref name="trimInterceptor" />
+				<interceptor-ref name="baseStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<!-- 配置默认拦截器栈 -->
+		<default-interceptor-ref name="placeStack" />
+	</package>
+	
+  	<package name="manage" extends="default" namespace="/manage/">
+		<interceptors>
+			<interceptor name="trimInterceptor" class="com.bocai.web.interceptor.TrimInterceptor" />
+			<interceptor-stack name="manageStack">
+				<!-- trim拦截器 -->
+				<interceptor-ref name="trimInterceptor" />
+				<interceptor-ref name="baseStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<!-- 配置默认拦截器栈 -->
+		<default-interceptor-ref name="manageStack" />
+	</package>
+</struts>

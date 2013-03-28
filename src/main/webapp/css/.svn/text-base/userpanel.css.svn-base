@@ -1,0 +1,126 @@
+@charset "utf-8";
+.person_content_rightc {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.person_content_rightc1 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_3.jpg) no-repeat
+}
+
+.person_content_rightc2 {
+	width: 284px;
+	height: auto;
+	overflow: hidden;
+	border-left: #E9ECDB solid 1px;
+	border-right: #E9ECDB solid 1px;
+}
+
+.person_content_rightc3 {
+	width: 286px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/person1qianse_6.jpg) no-repeat
+}
+
+.person_content_rightc2_1 {
+	width: 286px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 8px;
+}
+
+.person_content_rightc2_1_le {
+	float: left;
+	margin-left: 12px;
+	display: inline
+}
+
+.person_content_rightc2_1_le2 {
+	margin-top: 8px;
+}
+
+.person_content_rightc2_1_ri {
+	float: left;
+	margin-left: 15px;
+	display: inline
+}
+
+.person_content_rightc2_1_ri1 {
+	margin-top: 0
+}
+
+.person_content_rightc2_1_ri2 {
+	margin-top: 11px;
+	color: #848282
+}
+
+.person_content_rightc2_1_ri3 {
+	margin-top: 8px;
+	color: #5C7E27
+}
+
+.person_content_rightc2_2 {
+	width: 266px;
+	height: auto;
+	overflow: hidden;
+	color: #848282;
+	margin: 10px;
+	line-height: 150%;
+}
+
+.person_content_rightc2_3 {
+	width: 266px;
+	overflow: hidden;
+	margin-left: 10px;
+	border-bottom: 1px dotted #A1A1A1;
+    height: 1px;
+}
+
+.person_content_rightc2_4 {
+	width: 276px;
+	height: auto;
+	margin: 10px;
+	font-weight: bold
+}
+
+.person_content_rightc2_5 {
+	width: 276px;
+	height: auto;
+	overflow: hidden;
+	margin: 5px 0 20px 10px;
+}
+
+.person_content_rightc2_5 ul li {
+	float: left;
+	width: 68px;
+	height: 88px;
+}
+.person_content_rightc2_5 .userlist_more {
+	vertical-align: bottom;
+}
+
+.guanzhuli_1 {
+	width: 50px;
+	height: 50px;
+	padding: 2px
+}
+
+.guanzhuli_2 {
+	height: 24px;
+	margin-top: 4px;
+	text-align: left;
+}
+
+.person_content_rightc2_6 {
+	width: 266px;
+	height: 13px;
+	overflow: hidden;
+	background: url(../images/person_1_21.jpg) no-repeat;
+	margin-left: 10px;
+}
